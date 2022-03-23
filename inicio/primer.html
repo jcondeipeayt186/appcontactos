@@ -1,26 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+    <meta charset="utf-8">
      <title>Titulo de la pagina</title>
+
+     <link rel="stylesheet" href="../css/bootstrap/4.3.1/css/bootstrap.min.css">
+     <script src="../css/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+     
+
 </head>
 <body>
+    <div class="container-fluid">
     <h1 style="color: red;" >Título H1</h1>
     <h4>TITULO H4: ahora se vienen tres párrafos</h4>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Donec dapibus tincidunt turpis, at mattis odio mattis nec.
-        Nullam feugiat lectus egestas ornare venenatis. Mauris euismod massa id ullamcorper condimentum. Etiam ultrices ut mi nec tempus. In in lectus fermentum massa malesuada sollicitudin. Phasellus nunc justo, tempor ac congue vel, accumsan at nulla. Aenean blandit nisl tellus, id fermentum ex mollis cursus. Aliquam hendrerit accumsan tortor a dapibus. Proin vitae elit vel tortor dignissim interdum.
-    </p>
-    <p>Integer nec quam egestas, imperdiet neque a, venenatis orci. Morbi dictum elementum ipsum, nec ultricies erat laoreet sed. Phasellus imperdiet varius lacus ac vulputate. Nulla vel dolor orci. Ut dui leo, varius ac erat vel, lobortis tempor neque. Mauris consequat nisi vel dolor aliquet tempor. Sed egestas dolor at sem consectetur, nec pharetra nulla blandit. Etiam nunc massa, accumsan eget enim imperdiet, lacinia euismod enim. Pellentesque placerat tortor dui, posuere tempus elit elementum at. Morbi bibendum mi ut rutrum convallis. Curabitur ac bibendum nisi. Etiam facilisis orci est, sed consectetur elit laoreet id.
 
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Lorem Ipsum!</h4>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Donec dapibus tincidunt turpis, at mattis odio mattis nec.
+            Nullam feugiat lectus egestas ornare venenatis. Mauris euismod massa id ullamcorper condimentum. Etiam ultrices ut mi nec tempus. In in lectus fermentum massa malesuada sollicitudin. Phasellus nunc justo, tempor ac congue vel, accumsan at nulla. Aenean blandit nisl tellus, id fermentum ex mollis cursus. Aliquam hendrerit accumsan tortor a dapibus. Proin vitae elit vel tortor dignissim interdum.
+        </p>
+        <hr>
+        <p class="mb-0">Integer nec quam egestas, imperdiet neque a, venenatis orci. Morbi dictum elementum ipsum, nec ultricies erat laoreet sed. Phasellus imperdiet varius lacus ac vulputate. Nulla vel dolor orci. Ut dui leo, varius ac erat vel, lobortis tempor neque. Mauris consequat nisi vel dolor aliquet tempor. Sed egestas dolor at sem consectetur, nec pharetra nulla blandit. Etiam nunc massa, accumsan eget enim imperdiet, lacinia euismod enim. Pellentesque placerat tortor dui, posuere tempus elit elementum at. Morbi bibendum mi ut rutrum convallis. Curabitur ac bibendum nisi. Etiam facilisis orci est, sed consectetur elit laoreet id.
+        </p>
+        
+      </div>
+    
+    <p class="p-2">Integer nec quam egestas, imperdiet neque a, venenatis orci. Morbi dictum elementum ipsum, nec ultricies erat laoreet sed. Phasellus imperdiet varius lacus ac vulputate. Nulla vel dolor orci. Ut dui leo, varius ac erat vel, lobortis tempor neque. Mauris consequat nisi vel dolor aliquet tempor. Sed egestas dolor at sem consectetur, nec pharetra nulla blandit. Etiam nunc massa, accumsan eget enim imperdiet, lacinia euismod enim. Pellentesque placerat tortor dui, posuere tempus elit elementum at. Morbi bibendum mi ut rutrum convallis. Curabitur ac bibendum nisi. Etiam facilisis orci est, sed consectetur elit laoreet id.
     </p>
-    <p>Vestibulum eu pretium nisl, eget scelerisque tellus. Sed ac tristique tortor. Morbi volutpat sem massa, id semper mi faucibus nec. Nam lectus ipsum, porta at urna sed, luctus lobortis enim. Vivamus molestie blandit imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque elementum lectus nec elit dictum mollis. Donec nec est finibus leo varius placerat in et nibh. Sed vel pretium enim, eu rhoncus libero. Cras vehicula pretium libero, eu viverra velit commodo eu.
+    <p class="p-2">Vestibulum eu pretium nisl, eget scelerisque tellus. Sed ac tristique tortor. Morbi volutpat sem massa, id semper mi faucibus nec. Nam lectus ipsum, porta at urna sed, luctus lobortis enim. Vivamus molestie blandit imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque elementum lectus nec elit dictum mollis. Donec nec est finibus leo varius placerat in et nibh. Sed vel pretium enim, eu rhoncus libero. Cras vehicula pretium libero, eu viverra velit commodo eu.
     </p>
 
     <label for="basic-url" class="form-label">Your vanity URL</label>
 <div class="input-group mb-3">
-  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+  <span class="input-group-text" id="basic-addon3">URL</span>
   <input type="text" class="form-control" value="https://lipsum.com/" id="basic-url" aria-describedby="basic-addon3">
+</div>
+
 </div>
 </body>
 </html>
